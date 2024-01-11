@@ -1,0 +1,19 @@
+columnSuffix: zxdjgumi
+contentColumnType: text
+fieldGroup: 0cd5513d-680b-4e2f-8a86-bda3ea67f79d # Drinks
+handle: details
+instructions: null
+name: Details
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

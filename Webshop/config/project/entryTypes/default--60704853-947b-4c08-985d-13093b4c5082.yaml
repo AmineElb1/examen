@@ -1,0 +1,119 @@
+fieldLayouts:
+  c1134ac6-81f3-41ec-b979-3aefe398eb2f:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2f396f83-7048-4034-b51e-7835b6312185
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 15f14dab-a714-492b-9262-f073725d25e0 # Flavour
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d437bac1-8e86-411a-9fd9-adda1ddebd0c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ddba9489-8d14-4c9a-a148-14497a00ba4e # Price
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 6cc63a23-9bb0-40cd-8d30-64dba6edba67
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 96bbde7c-49b1-4d77-80c8-5d4959655373 # Country
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ea75c363-c855-4b62-9eef-bb17f8b52995
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: fe8b9bca-8ee5-4b4b-a967-c369feb0d82b # Details
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 309059c9-3418-4a9d-b103-1686c0d82582
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 142ced38-456f-4b76-8ac1-66e80065c880 # Category
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c641d385-4ca8-4c1c-a0e9-39d1cb470d2c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 245207ec-d496-4f2b-a677-d9c0c26ee4e8 # Drink Image
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d5cf5234-f4b3-4aa5-a1b9-f34e0e3ab688
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a740c30a-1b4c-4e18-8a3c-7161274fb2e4
+        userCondition: null
+handle: default
+hasTitleField: true
+name: Default
+section: b2152263-2ad0-40a9-b2bd-b91d1180d019 # Drinks
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

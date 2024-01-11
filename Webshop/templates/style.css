@@ -1,0 +1,203 @@
+body{
+    background-color: #b85ae2;
+    font-family: "Harmonia Sans", sans-serif
+}
+
+#header{
+   width: 100%;
+   height: 190px;
+   border: 1px solid black; 
+   background-color: #f8f8f8;
+}
+
+#header img{
+   width: 70px;
+   margin: 15px;
+   float: left;
+}
+
+#menu{
+   width: 100%;
+   height: 50px;
+   padding-left: 0;
+   
+}
+
+#menu ul{
+   list-style: none;
+
+}
+
+#menu li{
+    height: 100%;
+}
+
+#menu a{
+   text-decoration: none;
+   float: left;
+   padding: 10px;
+   margin-left: 50px;
+   color: black;
+  
+}
+
+#menu a:hover{
+   background-color: #ff66e5;
+}
+#menu #home{
+   margin-left: -10px;
+}
+
+
+#title{
+   padding: 30px;
+   color: #000000;
+   font-family: "Courier", "sans-serif";
+}
+
+#section{
+    background-color: #fff;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 40px;
+    margin-left: 0;
+}
+
+.drinks{
+   background: #fff;
+   border: 1px solid black;
+   border-radius: 5px;
+   margin: 10px;
+   width: 20%;
+   height: auto;
+   float: left;
+   background-color: white;
+   margin-left: 40px;
+   cursor: pointer;
+}
+
+.drinks button{
+   margin: 15px;
+   background: #FF78A1;
+   color: white;
+   border: none;
+   padding: 10px;
+   border-radius: 10px;
+   margin-left: 40%;
+}
+
+.drinks h3{
+   margin: 15px;
+   text-align: center;
+}
+
+.drinks ul li{
+   list-style: none;
+   margin: 15px;
+   margin-left:-15px;
+   text-align: center;
+}
+
+.drinks img{
+   width: 100%;
+}
+
+.boven-section{
+   height: 420px;
+   background-color: #b85ae2;
+   cursor: pointer;
+}
+.boven-section img{
+   width: 75%;
+   height: 90%;
+   margin-left: 5%;
+   
+}
+.onder-section{
+   height: 1500px;
+   
+}
+
+.onder-section h2{
+   margin: 40px;
+   
+}
+
+.zoeken{
+   float: right;
+   width: 15%;
+   margin-right: 5%;
+   
+}
+
+.zoeken input{
+   height: 30px;
+   border-radius: 5px 0px 0px 5px;
+   border: 1px solid black;
+}
+
+.zoeken button{
+   height: 34px;
+   width: 55px;
+   margin: 0;
+   background: #FF78A1;
+   border: 0;
+   border-radius: 0px 5px 5px 0px;
+   margin-left: -5px;
+   cursor: pointer;
+   color: white; 
+}
+
+
+.artikel{
+    width: 100%;
+    height: 450px;
+    display: block;
+    margin: 50px;
+    margin-left: 0;
+    
+}
+
+.artikel img{
+   float: left;
+}
+.artikel h2{
+    float: left;
+    width: 50%;
+    margin: 15px;
+}
+
+.artikel h3{
+    float: left;
+    width: 50%;
+    margin: 15px;
+    height: auto;
+}
+.artikel button{
+    float: left;
+    margin: 15px;
+    margin-left: 10%;
+    width: 50%;
+    height: 40px;
+    border-radius: 10px; 
+    border: none;
+    background: #FF78A1;
+    color: white;
+}
+
+.details{
+    float: left;
+    height: 40%;
+    width: 65%;
+    margin: 15px;
+}
+
+.titel{
+    margin: 50px;
+}
+
+#sort{
+    margin:10px;
+    margin-left: 50px;
+}

@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: drinks
+name: Drinks
+propagationMethod: all
+siteSettings:
+  e190b81c-8e8a-4158-9428-f34af0acc8b4: # Juice World
+    enabledByDefault: true
+    hasUrls: true
+    template: drinks/_entry
+    uriFormat: 'drinks/{slug}'
+type: channel

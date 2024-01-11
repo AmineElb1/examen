@@ -1,0 +1,72 @@
+dateModified: 1704899042
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      heading: Channels
+      type: heading
+    -
+      defaultSort:
+        - postDate
+        - desc
+      disabled: false
+      key: 'section:b2152263-2ad0-40a9-b2bd-b91d1180d019' # Drinks
+      tableAttributes:
+        - postDate
+        - 'field:245207ec-d496-4f2b-a677-d9c0c26ee4e8' # Drink Image
+      type: native
+email:
+  fromEmail: amine.elb.2004@gmail.com
+  fromName: 'Juice World'
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  drinks:
+    hasUrls: true
+    name: Drinks
+    settings:
+      path: '@webroot/images/uploads/drinks'
+    type: craft\fs\Local
+    url: '@web/images/uploads/drinks'
+meta:
+  __names__:
+    0cd5513d-680b-4e2f-8a86-bda3ea67f79d: Drinks # Drinks
+    15f14dab-a714-492b-9262-f073725d25e0: Flavour # Flavour
+    39c3252e-7c72-4625-9270-a4d18a22213b: LogoJuiceWorld # LogoJuiceWorld
+    96bbde7c-49b1-4d77-80c8-5d4959655373: Country # Country
+    142ced38-456f-4b76-8ac1-66e80065c880: Category # Category
+    245207ec-d496-4f2b-a677-d9c0c26ee4e8: 'Drink Image' # Drink Image
+    60704853-947b-4c08-985d-13093b4c5082: Default # Default
+    b2152263-2ad0-40a9-b2bd-b91d1180d019: Drinks # Drinks
+    c55bec01-4d8c-453e-a1f6-b83d6b256bda: Drinks # Drinks
+    d8c9a47c-2951-4433-9a6d-35f161f5b821: 'Juice World' # Juice World
+    ddba9489-8d14-4c9a-a148-14497a00ba4e: Price # Price
+    e190b81c-8e8a-4158-9428-f34af0acc8b4: 'Juice World' # Juice World
+    f4c57d18-acfb-4852-8f5a-dd17f0c3ce4e: Assets # Assets
+    fe8b9bca-8ee5-4b4b-a967-c369feb0d82b: Details # Details
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  social-share:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+system:
+  edition: solo
+  live: true
+  name: 'Juice World'
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: c55bec01-4d8c-453e-a1f6-b83d6b256bda # Drinks
+  requireEmailVerification: true
